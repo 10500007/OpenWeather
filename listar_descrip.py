@@ -15,7 +15,10 @@ key_netclima= '89e0c9d38f0b4b6c0354770cfaaca166'
 array_de_pontos = []
 #array_de_pontos_unico = [800,804]
 #{'id': 503, 'main': 'Rain', 'description': 'chuva muito forte', 'icon': '10d'}
-array_de_pontos_unico = [804, 803, 801, 800, 802, 500, 501,502, 601, 600,503]
+#{'id': 602, 'main': 'Snow', 'description': 'nevasca', 'icon': '13n'}
+#{'id': 504, 'main': 'Rain', 'description': 'chuva extrema', 'icon': '10d'}
+#{'id': 504, 'main': 'Rain', 'description': 'chuva extrema', 'icon': '10n'}
+array_de_pontos_unico = [804, 803, 801, 800, 802, 500, 501,502,504, 601, 600,503,602 ]
 meu_set = set()
 
 def requisicao(url):
